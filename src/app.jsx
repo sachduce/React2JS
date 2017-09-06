@@ -14,7 +14,7 @@ class App extends React.Component{
         this.setCurrent = this.setCurrent.bind(this);/**/
     }
     setCurrent(title, url){
-        var new_state = {current_title : title, current_url : url};
+        var new_state = {current_title : title, current_url : url};/**/
         this.setState(new_state);
     }
     render(){
