@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 // Hack : typicallly you get data from API server and API call from within React
-import data from "./data.js";/**/
+import data from "./data.js";
 import MainBox from "./components/main-box.jsx";/**/
 import Thumbnail from "./components/thumbnail.jsx"; /**/
 class App extends React.Component{
