@@ -8,7 +8,7 @@ class App extends React.Component{
     constructor(props){
         super(props);
         this.state ={
-            current_title : data[0].title,
+            current_title : data[0].title,/**/
             current_url : data[0].url
         }
         this.setCurrent = this.setCurrent.bind(this);/**/
